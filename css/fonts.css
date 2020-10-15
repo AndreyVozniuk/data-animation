@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'sofia-bold';
+  src: url('../fonts/sofiapro-bold.woff') format('woff'),
+  url('../fonts/sofiapro-bold.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'sofia-regular';
+  src: url('../fonts/sofiapro-regular.woff') format('woff'),
+  url('../fonts/sofiapro-regular.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'sofia-medium';
+  src: url('../fonts/sofiapro-medium.woff') format('woff'),
+  url('../fonts/sofiapro-medium.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'sofia-semiBold';
+  src: url('../fonts/sofiapro-semibold.woff') format('woff'),
+  url('../fonts/sofiapro-semibold.woff2') format('woff2')
+}

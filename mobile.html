@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <title>Data anim mobile</title>
+</head>
+<body>
+  
+<div class="wrapper">
+  <div class="data-content">
+    <div class="data-content__year" id="year-counter">1895</div>
+    <div class="stats-block">
+
+      <div class="stats-wrapper">
+        <div class="data-accident" id='accident-block'>
+        </div>
+
+        <div class="data-police" id='police-block'>
+        </div>
+      </div>
+
+      <div class="text-wrapper">
+        <div class="data-content__text" id='accident-text'>
+          <div id='accident-counter'>296</div>
+          <div>(Nombre <br> d'accidents)</div>
+        </div>
+        
+        <div class="data-content__text" id='police-text'>
+          <div id='police-counter'>221</div>
+          <div>(Nombre <br> de polices)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://dfrnc.com/lib/library-g.js"></script>
+<script src="js/countUp.js"></script>
+<script src="js/data.js"></script>
+<script src="js/countProcents.js"></script>
+<script src="js/mainMobile.js"></script>
+<script>
+TweenMax.set('.wrapper', {opacity:1})
+startConditionMobile()
+</script>
+</body>
+</html>
